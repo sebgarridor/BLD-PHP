@@ -139,7 +139,7 @@ add_action( 'widgets_init', 'blackdomino_widgets_init' );
  */
 function blackdomino_scripts() {
 	wp_enqueue_style( 'blackdomino-style', get_stylesheet_uri(), array(), _S_VERSION );
-	wp_enqueue_style( 'blackdomino-main', get_template_directory_uri() . '/css/main.css' ;
+	wp_enqueue_style( 'blackdomino-main', get_template_directory_uri() . '/css/main.css') ;
 
 	wp_style_add_data( 'blackdomino-style', 'rtl', 'replace' );
 
@@ -150,6 +150,16 @@ function blackdomino_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'blackdomino_scripts' );
+
+/**
+ * Custom Fonts
+ */
+/*function enqueue_custom_fonts(){
+	if(!is_admin()){
+		wp_register_style('')
+	}
+}
+*/
 
 /**
  * Implement the Custom Header feature.

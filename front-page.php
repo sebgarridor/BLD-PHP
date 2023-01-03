@@ -16,7 +16,7 @@ get_header();
 ?>
 
 	<main id="primary" class="site-main">
-		123
+		<h1>ola este es el home</h1>
 
 		<?php
 		while ( have_posts() ) :
@@ -35,5 +35,4 @@ get_header();
 	</main><!-- #main -->
 
 <?php
-get_sidebar();
 get_footer();
