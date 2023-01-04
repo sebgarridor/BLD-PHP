@@ -21,7 +21,7 @@
                         <a href="https://www.instagram.com/blackdomino.atelier/"><img class="imgconfig"
                                 src="./assets/img/instagramIcon.png" alt="ig logo"></a>
                         <a href="https://www.facebook.com/people/Blacky-Domino/100079510762644/"><img class="imgconfig"
-                                src="./assets/img/facebookicon.png" alt="fb logo"></a>
+                                src="./img/facebookicon.png" alt="fb logo"></a>
                     </div>
                 </div>
                 <div class="footer-col">
@@ -69,20 +69,7 @@
         </div>
         
     </footer>
-
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'blackdomino' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'blackdomino' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'blackdomino' ), 'blackdomino', '<a href="http://underscores.me/">Underscores.me</a>' );
-				?>
-		</div><!-- .site-info -->
+    <h6 class="noti">©2022 Squirr3l - Todos los derechos reservados </h6>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
