@@ -20,13 +20,13 @@
         <div class="container">
             <div class="row">
                 <div class="footer-col" id="logofooter">
-                    <img class="imgconfig" src="/img/Symbol_White_135px.png" alt="">
+                    <img class="imgconfig" src="<?php echo get_template_directory_uri();?>/img/Symbol_White_135px.png" alt="">
                     <div class="rrss">
-                        <a href=""><img class="imgconfig" src="./assets/img/iconmail.png" alt=""></a>
+                        <a href=""><img class="imgconfig" src="<?php echo get_template_directory_uri();?>/img/iconmail.png" alt=""></a>
                         <a href="https://www.instagram.com/blackdomino.atelier/"><img class="imgconfig"
-                                src="./assets/img/instagramIcon.png" alt="ig logo"></a>
+                                src="<?php echo get_template_directory_uri();?>/img/instagramIcon.png" alt="ig logo"></a>
                         <a href="https://www.facebook.com/people/Blacky-Domino/100079510762644/"><img class="imgconfig"
-                                src="./img/facebookicon.png" alt="fb logo"></a>
+                                src="<?php echo get_template_directory_uri();?>/img/facebookicon.png" alt="fb logo"></a>
                     </div>
                 </div>
                 <div class="footer-col">
@@ -58,14 +58,13 @@
                     </p>
                 </div>
                 <div class="footer-col" id="metodosdepago">
-                    <img class="imgconfig" src="./assets/img/webpay.png" alt="webpay" style="width: 9rem;"> <br>
-                    <img class="imgconfig" src="./assets/img/khipu.png" alt="khipu">
+                    <img class="imgconfig" src="<?php echo get_template_directory_uri();?>/img/webpay.png" alt="webpay" style="width: 9rem;"> <br>
+                    <img class="imgconfig" src="<?php echo get_template_directory_uri();?>/img/khipu.png" alt="khipu">
                 </div>
                 <div class="footer-col" id="logofooter2">
                     <div class="rrss">
                         <a href=""><img class="imgconfig" src=«img/iconmail.png»/> alt="gmaillogo"></a>
-                        <a href="https://www.instagram.com/blackdomino.atelier/"> <img class="imgconfig"
-                                src="/img/instagramIcon.png" alt="ig logo"></a>
+                        <a href="https://www.instagram.com/blackdomino.atelier/"> <img src="<?php echo get_template_directory_uri();?>/img/instagramIcon.png" alt="ig logo"></a>
                         <a href="https://www.facebook.com/people/Blacky-Domino/100079510762644/"><img class="imgconfig"
                                 src="/img/facebookicon.png" alt="fb logo"></a>
                     </div>
