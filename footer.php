@@ -1,13 +1,9 @@
 <?php
 /**
- * The template for displaying the footer
- *
- * Contains the closing of the #content div and all content after.
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
  * @package blackdomino
  */
+
 
 ?>
 
@@ -58,11 +54,11 @@
                 </div>
                 <div class="footer-col" id="logofooter2">
                     <div class="rrss">
-                        <a href=""><img class="imgconfig" src="./assets/img/iconmail.png" alt=""></a>
-                        <a href="https://www.instagram.com/blackdomino.atelier/"><img class="imgconfig"
-                                src="/img/facebookicon.png" alt="ig logo"></a>
+                        <a href=""><img class="imgconfig" src=«img/iconmail.png»/> alt="gmaillogo"></a>
+                        <a href="https://www.instagram.com/blackdomino.atelier/"> <img class="imgconfig"
+                                src="/img/instagramIcon.png" alt="ig logo"></a>
                         <a href="https://www.facebook.com/people/Blacky-Domino/100079510762644/"><img class="imgconfig"
-                                src="./assets/img/facebookicon.png" alt="fb logo"></a>
+                                src="/img/facebookicon.png" alt="fb logo"></a>
                     </div>
                 </div>
             </div>
