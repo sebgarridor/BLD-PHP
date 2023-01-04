@@ -140,6 +140,8 @@ add_action( 'widgets_init', 'blackdomino_widgets_init' );
 function blackdomino_scripts() {
 	wp_enqueue_style( 'blackdomino-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_enqueue_style( 'blackdomino-main', get_template_directory_uri() . '/css/main.css') ;
+	wp_enqueue_style( 'blackdomino-main', get_template_directory_uri() . '/css/home.css') ;
+	wp_enqueue_style( 'blackdomino-main', get_template_directory_uri() . '/css/NavYFooter.css') ;
 
 	wp_style_add_data( 'blackdomino-style', 'rtl', 'replace' );
 
@@ -154,12 +156,15 @@ add_action( 'wp_enqueue_scripts', 'blackdomino_scripts' );
 /**
  * Custom Fonts
  */
-/*function enqueue_custom_fonts(){
+function enqueue_custom_fonts(){
 	if(!is_admin()){
-		wp_register_style('')
+		wp_register_style('bokor', 'https://fonts.googleapis.com/css2?family=Bokor&display=swap');
+		wp_register_style('roboto', 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+		wp_register_style('Zen_Kaku_Gothic_New', 'https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap');
 	}
 }
-*/
+add_action('wp_enqueue_scripts', 'enqueue_custom_fonts');
+
 
 /**
  * Implement the Custom Header feature.
