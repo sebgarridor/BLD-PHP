@@ -36,9 +36,9 @@
                 <div class="footer-col">
                     <h5>Ayuda</h5>
                     <p>
-                        <a href="/preguntasfrecuentes.html">Preguntas frecuentes</a><br>
-                        <a href="/comocomprar.html">Cómo comprar</a><br>
-                        <a href="/Tallaje.html">Tallaje</a><br>
+                        <a href="/preguntasfrecuentes">Preguntas frecuentes</a><br>
+                        <a href="/comocomprar">Cómo comprar</a><br>
+                        <a href="/Ta">Tallaje</a><br>
                     </p>
                 </div>
                 <div class="footer-col">
@@ -50,11 +50,11 @@
                 <div class="footer-col">
                     <h5 class="FT">Productos</h5>
                     <p>
-                        <a href="/Bandoleras.html"> Bandoleras</a><br>
-                        <a href="/Totebag.html"> Totebags</a><br>
-                        <a href="/poleras.html"> Poleras</a><br>
-                        <a href="polerones.html"> Polerones</a><br>
-                        <a href="/colecciones.html"> Colecciones</a>
+                        <a href="/Bandoleras"> Bandoleras</a><br>
+                        <a href="/Totebag"> Totebags</a><br>
+                        <a href="/poleras"> Poleras</a><br>
+                        <a href="polerones"> Polerones</a><br>
+                        <a href="/colecciones"> Colecciones</a>
                     </p>
                 </div>
                 <div class="footer-col" id="metodosdepago">
