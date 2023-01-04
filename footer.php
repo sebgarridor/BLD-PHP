@@ -43,7 +43,7 @@
                 </div>
                 <div class="footer-col">
                     <h5 class="FT">Horario</h5>
-                    <p><b>Lunes a Viernes</b> <br> 11:30 hrs.<br>
+                    <p><b>Lunes a Viernes</b> <br> 11:30 a 19.00 hrs.<br>
                         <b>Sábado</b> <br> 11:00 a 16:00 hrs.
                     </p>
                 </div>
