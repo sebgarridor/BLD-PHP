@@ -141,7 +141,6 @@ function blackdomino_scripts() {
 	wp_enqueue_style( 'blackdomino-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_enqueue_style( 'blackdomino-main', get_template_directory_uri() . '/css/main.css') ;
 	wp_enqueue_style( 'blackdomino-main', get_template_directory_uri() . '/css/home.css') ;
-	wp_enqueue_style( 'blackdomino-main', get_template_directory_uri() . '/css/NavYFooter.css') ;
 
 	wp_style_add_data( 'blackdomino-style', 'rtl', 'replace' );
 
