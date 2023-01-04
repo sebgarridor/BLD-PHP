@@ -64,9 +64,9 @@
                 <div class="footer-col" id="logofooter2">
                     <div class="rrss">
                         <a href=""><img class="imgconfig" src=«img/iconmail.png»/> alt="gmaillogo"></a>
-                        <a href="https://www.instagram.com/blackdomino.atelier/"> <img src="<?php echo get_template_directory_uri();?>/img/instagramIcon.png" alt="ig logo"></a>
+                        <a href="https://www.instagram.com/blackdomino.atelier/"> <img class="imgconfig" src="<?php echo get_template_directory_uri();?>/img/instagramIcon.png" alt="ig logo"></a>
                         <a href="https://www.facebook.com/people/Blacky-Domino/100079510762644/"><img class="imgconfig"
-                                src="/img/facebookicon.png" alt="fb logo"></a>
+                                src="<?php echo get_template_directory_uri();?>/img/facebookicon.png" alt="fb logo"></a>
                     </div>
                 </div>
             </div>
