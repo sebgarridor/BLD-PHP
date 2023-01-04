@@ -157,8 +157,8 @@ add_action( 'wp_enqueue_scripts', 'blackdomino_scripts' );
  */
 function enqueue_custom_fonts(){
 	if(!is_admin()){
-		wp_register_style('bokor', 'https://fonts.googleapis.com/css2?family=Bokor&display=swap');
-		wp_register_style('roboto', 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+		wp_register_style('Bokor', 'https://fonts.googleapis.com/css2?family=Bokor&display=swap');
+		wp_register_style('Roboto', 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 		wp_register_style('Zen_Kaku_Gothic_New', 'https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap');
 	}
 }
