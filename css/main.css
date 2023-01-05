@@ -162,10 +162,8 @@ sup {
 }
 
 a {
-  color: #007bff;
-  text-decoration: none;
-  background-color: transparent;
-  -webkit-text-decoration-skip: objects;
+  color: white !important;
+  text-decoration: none !important;
 }
 a:hover {
   color: #0056b3;
@@ -7834,14 +7832,14 @@ footer {
 }
 
 a:hover {
-  color: #92478C;
+  color: #92478C !important;
   transition: 0.5s;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 a {
-  color: white;
-  text-decoration: none;
+  color: white !important;
+  text-decoration: none !important;
 }
 
 .footer-col {
@@ -7857,6 +7855,14 @@ a {
 #logofooter {
   text-align: left;
 }
+
+.htwoolentor-faq-card.is-active .htwoolentor-faq-head {
+  color: #FFFFFF !important;
+  border-color: #92478C !important;
+  background-color: #92478C !important;
+}
+
+
 
 /*responsive*/
 @media (min-width: 481px) and (max-width: 1023px) {
