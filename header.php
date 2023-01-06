@@ -151,7 +151,7 @@
                         <a class="margin_a" href="/preguntas-frecuentes/">FAQ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="margin_a" href="/comocomprar.html">Como Comprar</a>
+                        <a class="margin_a" href="/como-comprar/">Como Comprar</a>
                     </li>
             </div>
         </div>
