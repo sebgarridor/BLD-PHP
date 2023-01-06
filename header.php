@@ -56,7 +56,7 @@
                 <ul class="nav">
     
                     <li class="nav-item">
-                        <a class="margin_a" href="home.html">Inicio</a>
+                        <a class="margin_a" href="/">Inicio</a>
                     </li>
     
                     
@@ -70,11 +70,11 @@
                             </a>
                         </p>
                         <div class="collapse fontbokor" id="productos">
-                            <a href="poleras.html">Poleras</a><hr>
+                            <a href="/product-category/poleras/">Poleras</a><hr>
                             <a href="polerones_polo.html">Polerones polo</a><hr>
                             <a href="polerones_hoodie.html">Polerones canguro</a><hr>
-                            <a href="totebags.html">Totebags</a><hr>
-                            <a href="bandoleras.html">Bandoleras</a><br>
+                            <a href="/product-category/totebags/">Totebags</a><hr>
+                            <a href="/product-category/bandoleras/">Bandoleras</a><br>
                             
                         </div>
                     </li>
@@ -91,7 +91,7 @@
                                         <div class="col-3">
                                             <div class="card"
                                                 style="width: 15rem; border-radius: 0%; border-color: #202020;  ">
-                                                <a href="/poleras.html"><img class="card-img-top "
+                                                <a href="/product-category/poleras/"><img class="card-img-top "
                                                         style="background-color: #202020;"
                                                         src="<?php echo get_template_directory_uri();?>/img/JUNJI sin fondo figma.png"
                                                         alt="Card image cap"></a>
@@ -124,7 +124,7 @@
                                         <div class="col-3">
                                             <div class="card"
                                                 style="width: 15rem; border-radius: 0%; border-color: #202020; ">
-                                                <a href="/bandoleras.html"><img class="card-img-top "
+                                                <a href="/product-category/bandoleras"><img class="card-img-top "
                                                     style="background-color: #202020; height: 21rem;"
                                                     src="<?php echo get_template_directory_uri();?>/img/Bandolera EVA-01.png" alt="Card image cap"></a>
                                                 <div style="background-color:#2D2D2D;">
@@ -135,7 +135,7 @@
                                         <div class="col-3">
                                             <div class="card"
                                                 style="width: 15rem; border-radius: 0%; border-color: #202020; ">
-                                                <a href="/totebags.html"><img class="card-img-top" style="background-color: #202020; "
+                                                <a href="/product-category/totebags/"><img class="card-img-top" style="background-color: #202020; "
                                                 src="<?php echo get_template_directory_uri();?>/img/JUNJI sin fondo figma.png" alt="Card image cap"></a>
                                                 <div style="background-color:#2D2D2D;">
                                                     <h5 class="card-title fontZenKaku">Totebags</h5>
@@ -148,7 +148,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="margin_a" href="/colecciones.html">Colecciones</a>
+                        <a class="margin_a" href="/preguntas-frecuentes/">FAQ</a>
                     </li>
                     <li class="nav-item">
                         <a class="margin_a" href="/comocomprar.html">Como Comprar</a>

@@ -56,8 +56,8 @@
                         <a href="/Bandoleras"> Bandoleras</a><br>
                         <a href="/Totebag"> Totebags</a><br>
                         <a href="/poleras"> Poleras</a><br>
-                        <a href="polerones"> Polerones</a><br>
-                        <a href="/colecciones"> Colecciones</a>
+                        <a href="polerones"> Polerones polo</a><br>
+                        <a href="/colecciones"> Polerones canguro</a>
                     </p>
                 </div>
                 <div class="footer-col" id="metodosdepago">
@@ -66,7 +66,8 @@
                 </div>
                 <div class="footer-col" id="logofooter2">
                     <div class="rrss">
-                        <a href=""><img class="imgconfig" src=«img/iconmail.png»/> alt="gmaillogo"></a>
+                    <a href="mailto:blackdomino.atelier@gmail.com"><img class="imgconfig"
+                                src="<?php echo get_template_directory_uri();?>/img/iconmail.png" alt="gmaillogo" ></a>
                         <a href="https://www.instagram.com/blackdomino.atelier/"> <img class="imgconfig" src="<?php echo get_template_directory_uri();?>/img/instagramIcon.png" alt="ig logo"></a>
                         <a href="https://www.facebook.com/people/Blacky-Domino/100079510762644/"><img class="imgconfig"
                                 src="<?php echo get_template_directory_uri();?>/img/facebookicon.png" alt="fb logo"></a>
