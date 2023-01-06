@@ -5879,7 +5879,10 @@ button.close {
   opacity: 0.5;
 }
 
-button, input[type="button"], input[type="reset"], input[type="submit"] {
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
   border: none;
   /* border-color: #ccc #ccc #bbb; */
   border-radius: 3px;
@@ -9374,14 +9377,42 @@ main {
 
 a.button.wp-element-button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
   background-color: #92478C !important;
+  font-family: Zen Kaku Gothic New !important;
+}
+
+a.button.wp-element-button.product_type_simple.add_to_cart_button.ajax_add_to_cart:hover {
+  background-color: #b85eb0 !important;
+  color: #FFFFFF !important;
+}
+
+a.button.wp-element-button.product_type_grouped {
+  background-color: #92478C !important;
+  font-family: Zen Kaku Gothic New !important;
+}
+
+a.button.wp-element-button.product_type_grouped:hover {
+  background-color: #b85eb0 !important;
+  color: #FFFFFF !important;
+}
+
+a.button.wp-element-button.product_type_external {
+  background-color: #92478C !important;
+  font-family: Zen Kaku Gothic New !important;
+}
+
+a.button.wp-element-button.product_type_external:hover {
+  background-color: #b85eb0 !important;
+  color: #FFFFFF !important;
 }
 
 a.button.wp-element-button.product_type_variable.add_to_cart_button {
   background-color: #92478C !important;
+  font-family: Zen Kaku Gothic New !important;
 }
 
 a.button.wp-element-button.product_type_simple {
   background-color: #92478C !important;
+  font-family: Zen Kaku Gothic New !important;
 }
 
 p.woocommerce-result-count {
@@ -9415,6 +9446,34 @@ select option {
   background: transparent;
   text-align: center;
   color: white;
+}
+
+.woocommerce span.onsale {
+  min-height: 3.236em;
+  min-width: 3.236em;
+  padding: .202em;
+  font-size: 1em;
+  font-weight: 700;
+  position: absolute;
+  text-align: center;
+  line-height: 3.236;
+  top: -.5em;
+  left: -.5em;
+  margin: 0;
+  border-radius: 100%;
+  background-color: #92478C;
+  color: #fff;
+  font-size: .857em;
+  z-index: 9;
+}
+
+.woocommerce ul.products li.product .woocommerce-loop-category__title,
+.woocommerce ul.products li.product .woocommerce-loop-product__title,
+.woocommerce ul.products li.product h3 {
+  padding: .5em 0;
+  margin: 0;
+  font-size: 1em;
+  font-family: Zen Kaku Gothic New !important;
 }
 
 input#coupon_code {
