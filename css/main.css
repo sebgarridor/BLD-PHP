@@ -7711,6 +7711,44 @@ a {
   font-family: Zen Kaku Gothic New;
 }
 
+/*inicio faq widget*/
+.htwoolentor-faq-card .htwoolentor-faq-body .htwoolentor-faq-content {
+  padding: 1.5rem !important;
+  text-align: left !important;
+  font-family: Zen Kaku Gothic New !important;
+}
+
+.htwoolentor-faq-card .htwoolentor-faq-body .htwoolentor-faq-content h3{
+  padding-top: 1rem !important;
+  font-family: Bokor !important;
+}
+
+.htwoolentor-faq-card .htwoolentor-faq-head {
+  font-size: 2rem !important;
+  font-weight: 500;
+  line-height: 1.625;
+  position: relative;
+  display: flex;
+  padding: 19px 25px;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-color: #2D2D2D !important;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Bokor !important;
+  
+}
+
+.htwoolentor-faq-card.is-active .htwoolentor-faq-head {
+  color: #FFFFFF !important;
+  border-color: #92478C !important;
+  background-color: #92478C !important;
+}
+/*fin faq widget*/
+
 /* inicio navbar */
 #logofooter2 {
   display: none;
@@ -8087,4 +8125,8 @@ a.xoo-wsc-ft-btn {
   #logofooter2 {
     display: block;
   }
-}/*# sourceMappingURL=main.css.map */
+
+
+
+}
+/*# sourceMappingURL=main.css.map */
